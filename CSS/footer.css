@@ -1,0 +1,39 @@
+footer {
+    background-color: #040504;
+    margin: 0;
+    padding: 15px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #040504;
+    color: white;
+    flex-shrink: 0; 
+}
+
+footer ul {
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    justify-content: center;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.linkedin { color: #52b3d9; font-size: 20px; }
+.linkedin:hover { color: #00bfff; }
+.linkedin:active { color: #f1a9a0; }
+
+.github { color: #f5f5f5; font-size: 20px; }
+.github:hover { color: #00bfff; }
+.github:active { color: #f1a9a0; }
+
+.gmail { color: #c71610; font-size: 20px; }
+.gmail:hover { color: #00bfff; }
+.gmail:active { color: #f1a9a0; }

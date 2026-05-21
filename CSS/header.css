@@ -1,0 +1,47 @@
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #040504;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: palegoldenrod;
+    background-color: #333334;
+}
+
+/* Resume Card */
+.resume {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
